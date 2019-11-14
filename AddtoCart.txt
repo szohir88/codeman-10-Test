@@ -1,0 +1,25 @@
+Test case to add to cart fot walmart.com
+Testing Shopping Cart
+Shopping carts are one of the main features of an e-commerce website and thus form the centerpiece of testing e-commerce websites. It allows for customers to select and store multiple items in the cart and purchase them all at once.
+
+Nowadays, shopping carts have become “intelligent” in a sense that they remember what items you store in them so you can retrieve them at a later date or even from another device.
+
+In most cases, cookies are used to store cart data or if the user has an active account and is logged in, a session id can be stored against the user in the database. Either way, there are some key test cases which should be part of testing a shopping cart.
+
+Add one item to the cart – the cart should be updated with the item with correct name, image, and price.
+
+Increase the quantity of the item from the cart – the price should be updated to reflect the correct figure.
+
+Add the same item multiple times – there should be one item in the cart, but the quantity should reflect the number of additions and the total price should reflect the sum of the price of each item.
+
+Add multiple items of different types – For each item added, we should see a corresponding name, image, and price and total price of all items.
+
+Remove some items from the cart – the cart should update showing the existing items in the cart, total price should reflect the new sum.
+
+Remove all items from the cart – cart balance should be zero, no items should be displayed in the cart.
+
+Click on an item in the cart – we should be able to see more information about the product we just clicked either as a popup or redirecting to the product page.
+
+Add item(s) to the cart, close the browser and reopen the same site – ideally, the cart should still hold your items. N.B this particularly depends on the requirements on how the cart should behave.
+
+Coupons – need to check that the price of the cart is discounted when we apply a coupon and not discounted when we apply an invalid or expired coupon.
